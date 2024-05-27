@@ -27,7 +27,7 @@ To get started with the eSports Tutorial Aggregator, follow these steps:
    npx react-native run-ios (for ios)
    ```
 
-3. **Usage**:
+## Usage
 Browse Tutorials: Use the app to explore a variety of tutorial videos categorized by game and skill level.
 Search for Content: Use the built-in search engine to find specific tutorials based on keywords, game titles, or content creators.
 Track Progress: Mark tutorials as watched and follow recommended paths to improve your skills systematically.
