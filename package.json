@@ -11,6 +11,7 @@
     "build:e2e:android": "cd android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug && cd .."
   },
   "dependencies": {
+    "@testing-library/react-native": "^12.5.1",
     "react": "18.2.0",
     "react-native": "0.72.11"
   },

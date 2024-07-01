@@ -18,7 +18,7 @@ const App = () => {
   const renderAfterButton = () => (
     <View style={{flex: 1, paddingTop: 20, justifyContent: 'center', alignItems: 'center'}}>
       <Text style={{fontSize: 25}}>
-        {greeting}!!!
+        {greeting}
       </Text>
     </View>
   );
