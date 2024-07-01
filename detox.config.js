@@ -10,8 +10,6 @@ module.exports = {
     "android.debug": {
       type: "android.apk",
       binaryPath: "android/app/build/outputs/apk/debug/app-debug.apk",
-      build: "cd android && gradlew.bat assembleDebug assembleAndroidTest -DtestBuildType=debug && cd ..",
-      packageName: "com.esporttutorial.app"
     }
   },
   devices: {
@@ -23,7 +21,7 @@ module.exports = {
     }
   },
   configurations: {
-    "android.device.debug": {
+    "confAndroidApp": {
       device: "android.attached",
       app: "android.debug",
       artifacts: {
